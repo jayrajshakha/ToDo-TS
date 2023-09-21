@@ -4,10 +4,30 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
+    <title>ToDo-TS</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+         <div class="container">
+          <h1>Todos </h1>
+
+          <form class="form">
+                
+            <input placeholder="add Todos" class="in" required type="text">
+            <button type="submit" class="add"> Submit </button>
+
+          </form>
+
+          <div class="data" style="margin: 23px ;display: flex ; justify-content: center; flex-wrap: wrap; ">
+
+            <p style="margin: 6px;">No Todos</p>
+
+          </div>
+         </div>
+
+
+    </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
+ 
